@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.buschmais.jqassistant.plugin</groupId>
-    <artifactId>jqa-testng-plugin</artifactId>
+    <artifactId>testng</artifactId>
 
     <build>
         <plugins>
