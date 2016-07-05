@@ -1,0 +1,11 @@
+= jQAssistant TestNG Plugin
+
+This is the TestNG Plugin of https://www.jqassistant.org[jQAssistant^].
+It enables jQAssistant to scan and to analyze TestNG related
+artifacts like:
+
+- test classes
+- test methods
+- ...
+
+For more information on jQAssistant see https://www.jqassistant.org[^].
