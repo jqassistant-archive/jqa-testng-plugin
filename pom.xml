@@ -12,6 +12,7 @@
 
     <groupId>com.buschmais.jqassistant.plugin</groupId>
     <artifactId>testng</artifactId>
+    <name>jQAssistant TestNG Plugin</name>
 
     <build>
         <plugins>
