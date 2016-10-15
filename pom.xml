@@ -12,7 +12,14 @@
 
     <groupId>com.buschmais.jqassistant.plugin</groupId>
     <artifactId>testng</artifactId>
+
     <name>jQAssistant TestNG Plugin</name>
+    <url>http://jqassistant.org/</url>
+
+    <description>
+        Plugin for jQAssistant to be able to scan and to
+        analyze TestNG related artifacts.
+    </description>
 
     <organization>
         <name>buschmais GbR</name>
