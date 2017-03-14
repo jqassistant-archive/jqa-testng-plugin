@@ -25,8 +25,6 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *
      * @throws IOException
      *             If the test fails.
-     * @throws AnalysisException
-     *             If the test fails.
      * @throws NoSuchMethodException
      *             If the test fails.
      */
@@ -43,8 +41,6 @@ public class TestNGIT extends AbstractJavaPluginIT {
      * Verifies the concept "testng:TestClass".
      *
      * @throws IOException
-     *             If the test fails.
-     * @throws AnalysisException
      *             If the test fails.
      * @throws NoSuchMethodException
      *             If the test fails.
@@ -63,11 +59,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *
      * @throws IOException
      *             If the test fails.
-     * @throws AnalysisException
-     *             If the test fails.
      * @throws NoSuchMethodException
-     *             If the test fails.
-     * @throws AnalysisException
      *             If the test fails.
      */
     @Test
@@ -85,11 +77,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *
      * @throws IOException
      *             If the test fails.
-     * @throws AnalysisException
-     *             If the test fails.
      * @throws NoSuchMethodException
-     *             If the test fails.
-     * @throws AnalysisException
      *             If the test fails.
      */
     @Test
@@ -107,11 +95,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *
      * @throws IOException
      *             If the test fails.
-     * @throws AnalysisException
-     *             If the test fails.
      * @throws NoSuchMethodException
-     *             If the test fails.
-     * @throws AnalysisException
      *             If the test fails.
      */
     @Test
@@ -129,11 +113,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *
      * @throws IOException
      *             If the test fails.
-     * @throws AnalysisException
-     *             If the test fails.
      * @throws NoSuchMethodException
-     *             If the test fails.
-     * @throws AnalysisException
      *             If the test fails.
      */
     @Test
@@ -151,11 +131,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *
      * @throws IOException
      *             If the test fails.
-     * @throws AnalysisException
-     *             If the test fails.
      * @throws NoSuchMethodException
-     *             If the test fails.
-     * @throws AnalysisException
      *             If the test fails.
      */
     @Test
@@ -173,11 +149,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *
      * @throws IOException
      *             If the test fails.
-     * @throws AnalysisException
-     *             If the test fails.
      * @throws NoSuchMethodException
-     *             If the test fails.
-     * @throws AnalysisException
      *             If the test fails.
      */
     @Test
