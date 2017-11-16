@@ -42,6 +42,12 @@
     <properties>
         <jqa-plugin-common.version>1.4-SNAPSHOT</jqa-plugin-common.version>
         <jqa-java-plugin.version>1.4-SNAPSHOT</jqa-java-plugin.version>
+	<!--
+	 ! There is already a version 6.12 available but it is not found
+	 ! during the build on Jenkins.
+	 ! Oliver B. Fischer, 2017-11-16
+	-->
+	<testng.version>6.11</testng.version>
     </properties>
 
     <build>
@@ -54,7 +60,7 @@
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.12</version>
+                <version>${testng.version}</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
