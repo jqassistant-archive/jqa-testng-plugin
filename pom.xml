@@ -49,6 +49,7 @@
          ! Oliver B. Fischer, 2017-11-16
         -->
         <testng.version>6.11</testng.version>
+        <asciidoctor.toplevelid>testng-plugin</asciidoctor.toplevelid>
     </properties>
 
     <build>
