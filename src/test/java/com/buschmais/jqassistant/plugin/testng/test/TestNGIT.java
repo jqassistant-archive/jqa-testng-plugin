@@ -18,7 +18,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 /**
  * Tests for TestNG concepts.
  */
-public class TestNGIT extends AbstractJavaPluginIT {
+class TestNGIT extends AbstractJavaPluginIT {
 
     /**
      * Verifies the concept "testng:TestMethod".
@@ -29,7 +29,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void testMethod() throws Exception {
+    void testMethod() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:TestMethod").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
@@ -46,7 +46,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void testClass() throws Exception {
+    void testClass() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:TestClass").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
@@ -63,7 +63,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void beforeMethod() throws Exception {
+    void beforeMethod() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:BeforeMethod").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
@@ -81,7 +81,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void afterMethod() throws Exception {
+    void afterMethod() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:AfterMethod").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
@@ -99,7 +99,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void beforeClassMethod() throws Exception {
+    void beforeClassMethod() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:BeforeClassMethod").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
@@ -117,7 +117,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void afterClassMethod() throws Exception {
+    void afterClassMethod() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:AfterClassMethod").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
@@ -135,7 +135,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void beforeTestMethod() throws Exception {
+    void beforeTestMethod() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:BeforeTestMethod").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
@@ -153,7 +153,7 @@ public class TestNGIT extends AbstractJavaPluginIT {
      *             If the test fails.
      */
     @Test
-    public void afterTestMethod() throws Exception {
+    void afterTestMethod() throws Exception {
         scanClasses(TestClass.class);
         assertThat(applyConcept("testng:AfterTestMethod").getStatus(), equalTo(SUCCESS));
         store.beginTransaction();
