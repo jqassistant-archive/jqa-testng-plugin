@@ -1,6 +1,6 @@
 = jQAssistant TestNG Plugin
 
-This is the TestNG Plugin of https://www.jqassistant.org[jQAssistant^].
+This is the TestNG Plugin of https://jqassistant.org[jQAssistant^].
 It enables jQAssistant to scan and to analyze TestNG related
 artifacts like:
 
@@ -8,4 +8,4 @@ artifacts like:
 - test methods
 - ...
 
-For more information on jQAssistant see https://www.jqassistant.org[^].
+For more information on jQAssistant see https://jqassistant.org[^].
